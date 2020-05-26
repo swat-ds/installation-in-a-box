@@ -1,0 +1,13 @@
+<footer class="center">
+    <ul class="social-icons">
+    
+        {% if site.footer.links %}
+          {% for link in site.footer.links %}
+            {% if link.label and link.url %}
+              <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+    </ul>    
+    <p class="page__footer-copyright">&#169; {{ "today" | date: "%Y" }}<a href="{{ site.baseurl }}"> Swarthmore College Libraries</a></p>
+</footer>
