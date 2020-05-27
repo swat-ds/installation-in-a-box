@@ -1,3 +1,11 @@
 <header>
-    
+    <div>
+    <section class="container">
+            <div id="masthead">
+                <h1>{% if page.classes contains 'splash' %}{{ site.title}}{% else %}{{ page.title }}{% endif %}
+                </h1>
+                {% if page.subtitle %}<span>{{ page.subtitle }}{% endif %}
+            </div>
+    </section>
+    </div>
 </header>

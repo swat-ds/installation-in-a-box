@@ -1,0 +1,16 @@
+<!-- Collection Grid -->
+
+<section class="row collection-grid">
+    
+    {% for item in include.collection %}
+
+    <div class="column collection-item" style="background-image:url('{{ site.assets_path }}{{ item.collection }}/{{ item.Images[0] }}')">
+        <a href="{{ item.url }}">
+        <h3>{{ item.title }}</h3>
+        </a>
+    </div>
+
+    {% endfor %}
+
+
+</section>

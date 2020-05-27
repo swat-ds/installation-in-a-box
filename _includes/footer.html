@@ -1,5 +1,6 @@
-<footer class="center">
-    <ul class="social-icons">
+<footer class="container">
+
+    <ul class="row">
     
         {% if site.footer.links %}
           {% for link in site.footer.links %}
@@ -11,3 +12,5 @@
     </ul>    
     <p class="page__footer-copyright">&#169; {{ "today" | date: "%Y" }}<a href="{{ site.baseurl }}"> Swarthmore College Libraries</a></p>
 </footer>
+
+{% include footer_scripts %}

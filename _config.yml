@@ -8,6 +8,8 @@ author: Digital Scholarship at Swarthmore College Libraries
 github_username:  swat-ds
 twitter_username: swatlibrary
 lang: 'en'
+assets_path: /assets/images/
+
 
 navigation:
   - title: Home
@@ -64,9 +66,8 @@ collections:
   works:
     output: true
     permalink: /works/:path/
-    output: true
-    source: works-list.csv
-    id_key: id
+    source: hyper-local-works-list.json
+    id_key: Work
     layout: single
 
 # Sass/SCSS
