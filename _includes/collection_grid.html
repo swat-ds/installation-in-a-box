@@ -4,9 +4,10 @@
     
     {% for item in include.collection %}
 
-    <div class="column collection-item" style="background-image:url('{{ site.assets_path }}{{ item.collection }}/{{ item.Images[0] }}')">
-        <a href="{{ item.url }}">
-        <h3>{{ item.title }}</h3>
+    <div class="column collection-item" style="background-image:url('{{ item.Images[0] | prepend: '/' | prepend: item.collection | prepend: site.assets_path | relative_url }}')">
+        <a href="{{ item.url | relative_url }}">
+        <span class="collection-item-title">{{ item.Title }}</span>
+        <span class="collection-item-artist">{{ item.Artist }}</span>
         </a>
     </div>
 

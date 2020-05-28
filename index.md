@@ -1,7 +1,6 @@
 ---
 title: Home
 subtitle: New Works in the Swarthmore College Libraries Collection
-classes: ['splash']
 layout: splash
 permalink: /
 ---

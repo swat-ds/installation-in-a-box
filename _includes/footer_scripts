@@ -3,4 +3,9 @@
 src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
 crossorigin="anonymous"></script>
-<script type="text/javascript" src="{{ assets/js/main.js | relative_url }}" ></script><script src="https://kit.fontawesome.com/e362474648.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="{{ 'assets/js/main.js' | relative_url }}" ></script>
+<script src="https://kit.fontawesome.com/e362474648.js" crossorigin="anonymous"></script>
+{% if layout.classes contains "single" or page.classes contains "single" %}
+<script type="text/javascript" src="{{ 'assets/js/viewer.min.js' | relative_url }}" ></script>
+<script type="text/javascript" src="{{ 'assets/js/jquery-viewer.min.js' | relative_url }}" ></script>
+{% endif %}

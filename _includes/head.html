@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="{{ 'assets/css/normalize.css' | relative_url }}" type="text/css">
     <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
 
+    {% if layout.classes contains "single" or page.classes contains "single" %}
+    <link rel="stylesheet" href="{{ 'assets/css/viewer.min.css' | relative_url }}" type="text/css">
+    {% endif %}
+
     <!-- Open Graph -->
     <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
     <meta property="og:locale" content="{{ site.text.og_locale | default: "en_US" }}">

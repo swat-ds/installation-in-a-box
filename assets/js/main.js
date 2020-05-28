@@ -17,37 +17,26 @@ $(function(){
 
     var headHeight = $('header').height();
     var panelHeight = $('.panel').height();
+    var image = $('#image-list');
 
-    $('#services a').on('click', function(e){
-        var currPanel = e.target.innerHTML;
-        $('#' + currPanel).scrollView();
-    });
-
-    $('#nav-arrow').on('click', function(e){
-
-        e.preventDefault();
-        $('html, body').animate({
-            scrollTop: 0
-        }, 1000);
-
-    });
-
+    $('.splash .navigation').addClass('trans');
 
     $(document).on('scroll', function(d){
 
         var currTop = $(this).scrollTop();
 
-        if ( currTop > 70 ){
-            $('.site-title span').addClass('little');
+        if ( currTop < 100 ){
+            $('.splash .navigation').addClass('trans');
         } else {
-            $('.site-title span').removeClass('little')
-        }
-
-        if (currTop > panelHeight) {
-            $('#nav-arrow').fadeIn();
-        } else {
-            $('#nav-arrow').fadeOut();
+            $('.splash .navigation').removeClass('trans')
         }
 
     });
+
+    image.viewer({
+        backdrop: true,
+        movable: false,
+        toolbar: false
+      });
+      
 });

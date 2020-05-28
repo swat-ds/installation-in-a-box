@@ -1,5 +1,21 @@
 ---
 layout: default
+classes: ['single']
 ---
 
-{{ content }}
+<div class="row">
+    <div class="column work-images">
+        <ul id="image-list">
+            {% for i in page.Images %}
+                <li><img src="{{ i | prepend: '/' | prepend: page.collection | prepend: site.assets_path | relative_url }}" alt="Image of {{ page.Title }} by {{ page.Artist }}"></li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="column work-meta">
+        <h2 class="work-title">{{ page.Title }}</h2>
+        <span class="work-artist-date">{{ page.Artist }}, {{ page.Date }}</span>
+        <span class="work-edition">{{ page.Edition }}</span>
+        <span class="work-description"><p>{{ page.Description }}</p></span>
+    </div>
+</div>
+

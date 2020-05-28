@@ -1,18 +1,18 @@
 ---
 layout: default
 title: About
+classes: ['header']
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Swarthmore College is home to a vibrant and continually growing collection of contemporary artists' books. The collection, with over 6,000 items dating back to 1540, is cataloged and available in Tripod. The Book Arts and Private Press Collection is committed to the acquisition of fine printing and artists' books, and strives to represent all aspects of the physical book including bookbinding, typography, letterpress and offset printing, hand papermaking, illustration, and book design.
 
 
-[jekyll-organization]: https://github.com/jekyll
+Housed in the Rare Book Room in McCabe Library, this collection currently contains examples from nearly 1,000 different presses, from historically significant presses like Kelmscott Press, Doves Press, the Roycrofters, Nonesuch Press, and Golden Cockerel Press, to the works of important contemporary book artisits such as Tia Blassingame, Islam Aly, Russell Maret, Maureen Cummins, Xu Bing, and Donald Glaister.
+
+
+While the Rare Book Room is not open to the public for browsing, [you can discover Swarthmore Special Collections in Tripod](http://tripod.swarthmore.edu/).
+
+![McCabe Library Logo]( {{ '/assets/images/LibraryLogo_finalfinal.png' | relative_url }})  
+*Site supported by [Digital Scholarship / Swarthmore College Libraries](http://ds.swarthmore.edu/)*
+{: .ds-logo}
