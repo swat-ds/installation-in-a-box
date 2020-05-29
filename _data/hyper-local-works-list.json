@@ -1,12 +1,10 @@
 [
-
     {
       "Work" : "codex-project-cubillas",
       "Title" : "The Codex Project",
       "Artist" : "Adrian Cubillas",
       "Date" : "2019",
-      "Photos" : "CUBILLAS_BROWN&BLUE_TONING1_0036.jpg (https://dl.airtable.com/.attachments/fd35d940ea31646bf5164c24055e5d65/58af6f81/CUBILLAS_BROWNBLUE_TONING1_0036.jpg),CUBILLAS_BROWN&BLUE_TONING1_0051.jpg (https://dl.airtable.com/.attachments/4cdc70bf64dfbe4b56ad371cb5299486/611bdda3/CUBILLAS_BROWNBLUE_TONING1_0051.jpg)",
-      "Images" : ["CUBILLAS_BROWN&BLUE_TONING1_0036.jpg","CUBILLAS_BROWN&BLUE_TONING1_0051.jpg"],
+      "Images" : ["cubillasbrownbluetoning10036.jpg","cubillasbrownbluetoning10051.jpg"],
       "Edition" : "Unique Edition",
       "Description" : "Part of 2019’s The CODEX Project. \n\nThe Codex is an intensive project and exhibition of 19 artists, who are annually invited to create authentic, open-ended artwork individually within a bound book over the course of a year … The project is meant to encourage artists to question what drives and challenges them, inviting proactive change and potential in as many ways as possible. By showing the artists' books together in the same format, we hope to strengthen the idea that the pursuit of quality work is equal, and the differences between the pieces inside them shows how quality is self-defined. \n—The Codex Project",
       "Permission" : "yes"
@@ -16,8 +14,7 @@
       "Title" : "Rouge",
       "Artist" : "Agathe Bouton",
       "Date" : "2001",
-      "Photos" : "Rouge.jpg (https://dl.airtable.com/.attachments/360fbe4c822ac78540d0738fc5e56e73/ece4fc3f/Rouge.jpg)",
-      "Images" : ["Rouge.jpg"],
+      "Images" : ["rouge.jpg"],
       "Edition" : "Unique Edition",
       "Description" : null,
       "Permission" : "yes"
@@ -27,8 +24,7 @@
       "Title" : "Alphabet Hebreu",
       "Artist" : "Agathe Bouton",
       "Date" : "2001",
-      "Photos" : "Alphabet Hebreu XI.JPG (https://dl.airtable.com/.attachments/d69950ce6adf6d21cfab707b30257601/49a3b101/AlphabetHebreuXI.JPG),Alphabet Hebreu XI a.JPG (https://dl.airtable.com/.attachments/8d2c0157f807ac19f3b5782d2a205bf3/8a9edad9/AlphabetHebreuXIa.JPG)",
-      "Images" : ["Alphabet Hebreu XI.JPG","Alphabet Hebreu XI a.JPG"],
+      "Images" : ["alphabethebreuxi.jpg","alphabethebreuxia.jpg"],
       "Edition" : "Unique Edition",
       "Description" : null,
       "Permission" : "yes"
@@ -38,8 +34,7 @@
       "Title" : "Window IX",
       "Artist" : "Agathe Bouton",
       "Date" : "2019",
-      "Photos" : "W IX.JPG (https://dl.airtable.com/.attachments/32ebed22bab8ee0b29a3cf07459704fb/24a1e600/WIX.JPG),W IX a.jpg (https://dl.airtable.com/.attachments/82f9340fa91cb06611416e0677ed67bf/8b73f74b/WIXa.jpg)",
-      "Images" : ["W IX.JPG","W IX a.jpg"],
+      "Images" : ["wix.jpg","wixa.jpg"],
       "Edition" : "Unique Edition",
       "Description" : null,
       "Permission" : "yes"
@@ -49,8 +44,7 @@
       "Title" : "Musique II",
       "Artist" : "Agathe Bouton",
       "Date" : "2000",
-      "Photos" : "musique II.jpg (https://dl.airtable.com/.attachments/3cdfcffcfe8802c1b8f7304fd7cea58c/e08b7003/musiqueII.jpg)",
-      "Images" : ["musique II.jpg"],
+      "Images" : ["musiqueii.jpg"],
       "Edition" : "Unique Edition",
       "Description" : null,
       "Permission" : "yes"
@@ -60,8 +54,7 @@
       "Title" : "Grand Canal",
       "Artist" : "Alice Austin",
       "Date" : "2019",
-      "Photos" : "GrandCanal_Austin1.png (https://dl.airtable.com/.attachments/7ce733429a5d58171cce4ef8e6a3a054/8be5a3d3/GrandCanal_Austin1.png),GrandCanal_Austin2.png (https://dl.airtable.com/.attachments/7db48d6377516a2eaa86a64f1b34b62a/90525f68/GrandCanal_Austin2.png)",
-      "Images" : ["GrandCanal_Austin1.png","GrandCanal_Austin2.png"],
+      "Images" : ["grandcanalaustin1.png","grandcanalaustin2.png"],
       "Edition" : "Edition of 20",
       "Description" : "Venice's Grand Canal is depicted in this tunnel book, highlighting the chaotic mix of local fauna, gondolas, traghettos and bridges vying for space on the waterway, with the ominous visage of a cruise ship lurking on the horizon. The cover panel is an eye shape that you look through into the Grand canal scene. \n—Alice Austin",
       "Permission" : "yes"
@@ -71,8 +64,7 @@
       "Title" : "Coffee Please!",
       "Artist" : "Alice Austin",
       "Date" : "2019",
-      "Photos" : "Austin_coffee1.jpg (https://dl.airtable.com/.attachments/8d6a1f95269a3d7247656a89270d41d2/fd66528e/Austin_coffee1.jpg),Austin_coffe2.jpg (https://dl.airtable.com/.attachments/e6581447e32d29ccb365b35398363cf0/3e289186/Austin_coffe2.jpg)",
-      "Images" : ["Austin_coffee1.jpg","Austin_coffe2.jpg"],
+      "Images" : ["austincoffee1.jpg","austincoffe2.jpg"],
       "Edition" : "Edition of 2",
       "Description" : "Coffee is a ritual. \n—Alice Austin\n\nCreated for the 2019 RiTUAL exhibition of single-sheet artists' books organized by @heavy.bubble. \n",
       "Permission" : "yes"
@@ -82,8 +74,7 @@
       "Title" : "Cycles",
       "Artist" : "Angelique Kopacz",
       "Date" : "2019",
-      "Photos" : "Kopacz_Cycles_4.jpg (https://dl.airtable.com/.attachments/794efaba9d2e469fcb3cbd371bdfa1c6/2050b9a4/Kopacz_Cycles_4.jpg),Kopacz_Cycles_2.jpg (https://dl.airtable.com/.attachments/607c3548ca9007c3afc19cc1adb4c1b0/9a608a10/Kopacz_Cycles_2.jpg)",
-      "Images" : ["Kopacz_Cycles_4.jpg","Kopacz_Cycles_2.jpg"],
+      "Images" : ["kopaczcycles4.jpg","kopaczcycles2.jpg"],
       "Edition" : null,
       "Description" : "Cycles is inspired by the song 'We Are Nowhere and it’s Now' by Bright Eyes. The lyrics deal with themes of mental illness, substance abuse, and existential dread. My personal work involves creating visuals that embody different experiences of mental illness. As mental illness is cyclical, the book is bound to stand as a concertina. The text used in Cycles derives from the lyrics but has been altered to support the personal nature of the book. \n\nThroughout the book, I use natural abstractions created through pulp painting and screen printing that portray the ebb and flow of life itself.  Being stuck in the moments in between. As the imagery continues, they become more illustrative as they are screen printed from hand drawn images.  Being a superstitious person by nature, I use imagery of luck and good fortune, such as, a rabbit’s foot designed after my cat’s lucky foot and a wish bone. As the imagery shifts throughout Cycles, the use of two colors, teal and magenta, creates a connection. The fact that this book stems from personal experiences, the use of the hand is very vital.\" \n—Angelique Kopacz",
       "Permission" : "yes"
@@ -93,8 +84,7 @@
       "Title" : "This is a Story/Lessons in Abstraction No. 1",
       "Artist" : "Barbara Henry",
       "Date" : "2019",
-      "Photos" : "IMG_1709.jpeg (https://dl.airtable.com/.attachments/fc4bfa5f7cdbaa1f5d9f7479921c41b5/6386ae85/IMG_1709.jpeg),IMG_1708.jpeg (https://dl.airtable.com/.attachments/f249b1ffbc49ecb85d9723ac5a45dc0c/9076e9e3/IMG_1708.jpeg)",
-      "Images" : ["IMG_1709.jpeg","IMG_1708.jpeg"],
+      "Images" : ["img1709.jpeg","img1708.jpeg"],
       "Edition" : "Edition of 4",
       "Description" : "This Is a Story/Lessons in Abstraction, No. 1 consists of a series of typographical illustrations with descriptive prompts.\n—Barbara Henry\n\nCreated for the 2019 RiTUAL exhibition of single-sheet artists' books organized by @heavy.bubble. ",
       "Permission" : "yes"
@@ -104,8 +94,7 @@
       "Title" : "36 Views of Philadelphia",
       "Artist" : "Ben T. Leech",
       "Date" : "2020",
-      "Photos" : "Leech3.jpeg (https://dl.airtable.com/.attachments/d99f20c6cc432dcd9e0e4284572a5d77/c415ad39/Leech3.jpeg),Leech2.jpeg (https://dl.airtable.com/.attachments/7dd63ac442aebaaa89a04ac0346df81f/2d263b78/Leech2.jpeg)",
-      "Images" : ["Leech3.jpeg","Leech2.jpeg"],
+      "Images" : ["leech3.jpeg","leech2.jpeg"],
       "Edition" : null,
       "Description" : "Hand-drawn, ready-to-mail sketches of thirty-six great neighborhood gems, architectural oddities, and lesser-known landmarks, illustrated by Ben T. Leech. \n—Ben T. Leech",
       "Permission" : "yes"
@@ -115,8 +104,7 @@
       "Title" : "Siena",
       "Artist" : "Dee Collins",
       "Date" : "2019",
-      "Photos" : "7h2IVOPdSA+mAOZT-EI1VA_thumb_9631.jpg (https://dl.airtable.com/.attachments/7ff137292c80813dbb65538d192989d8/60a990f0/7h2IVOPdSAmAOZT-EI1VA_thumb_9631.jpg),73QhmqJiRmOFZdXkqt2lJA_thumb_9224.jpg (https://dl.airtable.com/.attachments/f38f476e455007de610c6c514208da56/5b54cc4b/73QhmqJiRmOFZdXkqt2lJA_thumb_9224.jpg)",
-      "Images" : ["7h2IVOPdSA+mAOZT-EI1VA_thumb_9631.jpg","73QhmqJiRmOFZdXkqt2lJA_thumb_9224.jpg"],
+      "Images" : ["7h2ivopdsa+maozt-ei1vathumb9631.jpg","73qhmqjirmofzdxkqt2ljathumb9224.jpg"],
       "Edition" : "Unique Edition",
       "Description" : "An accordion book with linoleum cut prints of scenes from Siena, Italy seen through a window frame. \n—Dee Collins",
       "Permission" : "yes"
@@ -126,8 +114,7 @@
       "Title" : "Cascades Train, Vancouver to Portland",
       "Artist" : "Dee Collins",
       "Date" : "2013",
-      "Photos" : "UNADJUSTEDNONRAW_thumb_9654.jpg (https://dl.airtable.com/.attachments/bab6fb6383bc064e0452e80b5d14a293/224796a8/UNADJUSTEDNONRAW_thumb_9654.jpg),UNADJUSTEDNONRAW_thumb_964f.jpg (https://dl.airtable.com/.attachments/6cd1ab4cdfb862c0e5c1e8d6f4d4864c/1b7c1680/UNADJUSTEDNONRAW_thumb_964f.jpg)",
-      "Images" : ["UNADJUSTEDNONRAW_thumb_9654.jpg","UNADJUSTEDNONRAW_thumb_964f.jpg"],
+      "Images" : ["unadjustednonrawthumb9654.jpg","unadjustednonrawthumb964f.jpg"],
       "Edition" : "Unique Edition",
       "Description" : "An accordion book train journey with reduction linoleum prints of views from Vancouver to Portland. \n—Dee Collins",
       "Permission" : "yes"
@@ -137,8 +124,7 @@
       "Title" : "Donald Pays Diego for Richard Serra’s Fence",
       "Artist" : "Dee Collins",
       "Date" : "2016",
-      "Photos" : "iURN8sZ6QgiMR364-6Qm9w_thumb_9644.jpg (https://dl.airtable.com/.attachments/2a91ba6082cb9b2dfb32705ed49e6fa4/2e82b1c3/iURN8sZ6QgiMR364-6Qm9w_thumb_9644.jpg),JiBt0da+TSu94ME0tIaq-Q_thumb_965d.jpg (https://dl.airtable.com/.attachments/a68798bbd90426fc01bbd9a2102f7af8/c656f3f8/JiBt0daTSu94ME0tIaq-Q_thumb_965d.jpg)",
-      "Images" : ["iURN8sZ6QgiMR364-6Qm9w_thumb_9644.jpg","JiBt0da+TSu94ME0tIaq-Q_thumb_965d.jpg"],
+      "Images" : ["iurn8sz6qgimr364-6qm9wthumb9644.jpg","jibt0da+tsu94me0tiaq-qthumb965d.jpg"],
       "Edition" : "Edition of 10",
       "Description" : "A hard-cased satirical tunnel book. \n—Dee Collins",
       "Permission" : "yes"
@@ -148,8 +134,7 @@
       "Title" : "Voices",
       "Artist" : "Dee Collins",
       "Date" : "2012",
-      "Photos" : "B+WXvoT9SJOvFFXax62qDA_thumb_964c.jpg (https://dl.airtable.com/.attachments/89acf76fcca2a3843d07c35ffad15ec3/90e26b38/BWXvoT9SJOvFFXax62qDA_thumb_964c.jpg),aVDGS4JDQW6CBCr1oc1Bxg_thumb_963e.jpg (https://dl.airtable.com/.attachments/750ce29c862a54e9e8128a21fb4803ba/04cdcac8/aVDGS4JDQW6CBCr1oc1Bxg_thumb_963e.jpg)",
-      "Images" : ["B+WXvoT9SJOvFFXax62qDA_thumb_964c.jpg","aVDGS4JDQW6CBCr1oc1Bxg_thumb_963e.jpg"],
+      "Images" : ["b+wxvot9sjovffxax62qdathumb964c.jpg","avdgs4jdqw6cbcr1oc1bxgthumb963e.jpg"],
       "Edition" : "Unique Edition",
       "Description" : "Original linoleum prints paired with quotes by women. \n—Dee Collins",
       "Permission" : "yes"
@@ -159,8 +144,7 @@
       "Title" : "Making the Dress",
       "Artist" : "Diane Podolsky",
       "Date" : "2018",
-      "Photos" : "\"Making the Dress, Standing Open.jpg (https://dl.airtable.com/.attachments/013d5f16ced959d0b1c069e1e10083e5/54c6a414/MakingtheDressStandingOpen.jpg)\",\"Making the Dress, Back Standing (1).jpg (https://dl.airtable.com/.attachments/259b0d9c51acaebf750dc3d5587ddbbe/ac256526/MakingtheDressBackStanding1.jpg)\"",
-      "Images" : ["Making the Dress","Standing Open.jpg","Making the Dress","Back Standing.jpg"],
+      "Images" : ["makingthedressstandingopen.jpg","makingthedressbackstanding.jpg"],
       "Edition" : "Unique Edition",
       "Description" : "For a variety of reasons, I was always fascinated with the world of sewing, an area for which I have no talent or patience. It is an industry that provided many women with a means to earn a wage. In the best circumstances, women would take in sewing as a home based business which allowed them to work and watch their children. In other instances, the work was done in factories that ran the gamut of well paid union jobs to sweatshops. Textiles were a large part of Philadelphia Industry and the founding of a college dedicated to the craft in the late 1800s is another indication of their importance in the Philadelphia community. So this book was made as an homage to all the women who were (and still are) skilled in this field. \n—Diane Podolsky",
       "Permission" : "yes"
@@ -170,8 +154,7 @@
       "Title" : "O. T. W. On the Water: The Schuylkill River",
       "Artist" : "James Lancel McElhinney",
       "Date" : "2018",
-      "Photos" : "OTW_Fairmount.png (https://dl.airtable.com/.attachments/3edfecec27a27383cb2a2ee22b13f7f4/e25eed3d/OTW_Fairmount.png),Girard-from-2-Angels.jpg (https://dl.airtable.com/.attachments/d3afbc3bb187b36f5be2095d0815e4c4/5e3d637c/Girard-from-2-Angels.jpg)",
-      "Images" : ["OTW_Fairmount.png","Girard-from-2-Angels.jpg"],
+      "Images" : ["otwfairmount.png","otwgirard-from-2-angels.jpg"],
       "Edition" : "Edition of 50",
       "Description" : "Journal-painting project that explores a three-mile stretch of Philadelphia’s historic Schuylkill River, as it passes through Fairmount Park from East Falls to Fairmount Waterworks, beside the Philadelphia Museum of Art.\n\nView of the Philadelphia Museum of Art and the Fairmount Water Works by the Fish Ladder on the western end of the dam.\n\nLOOKING SOUTH FROM THREE ANGELS A broad esplanade on the eastern bank was created when landfill replaced pestilential wetlands. A grove of cherry trees was created from a gift to the city by Japan, honoring the sesquicentennial of American independence. Rising behind the Connecting Railway Bridge is the distant form of the Comcast Technology Center.\n—James Lancel McElhinney",
       "Permission" : "yes"
@@ -181,7 +164,6 @@
       "Title" : "#PHILLYCORNERPOSTS",
       "Artist" : "Jon Snyder",
       "Date" : "2019",
-      "Photos" : "8dc0e484ff190721fcff199f8b6a296e.jpeg (https://dl.airtable.com/.attachments/49cc6d0334028163bb5e448e24dbd43f/63ca7420/8dc0e484ff190721fcff199f8b6a296e.jpeg),6b646e6ba73f38137fede2f4d7b2d622.jpeg (https://dl.airtable.com/.attachments/a2410da087264ea030cbfd7dfae9d57e/97e49304/6b646e6ba73f38137fede2f4d7b2d622.jpeg)",
       "Images" : ["8dc0e484ff190721fcff199f8b6a296e.jpeg","6b646e6ba73f38137fede2f4d7b2d622.jpeg"],
       "Edition" : "Edition of 2",
       "Description" : "The once-ubiquitous posts of corner properties in Philadelphia are disappearing as buildings are torn down or remodeled. Keep an eye out and you will see them in neighborhoods settled in the mid-late 1800's. \n—Jon Snyder\n\nCreated for the 2019 RiTUAL exhibition of single-sheet artists' books organized by @heavy.bubble. ",
@@ -192,8 +174,7 @@
       "Title" : "The Codex Project",
       "Artist" : "Kaitlyn Basta",
       "Date" : "2019",
-      "Photos" : "Codex_Installation_Kaitlyn_Basta.jpg (https://dl.airtable.com/.attachments/1b1ab6ec7ced9c442ed69924048a75d8/f8184049/Codex_Installation_Kaitlyn_Basta.jpg),Codex_Installation_Kaitlyn_Basta-16.jpg (https://dl.airtable.com/.attachments/f6106342a1dcdbfea0f47e085a72f44f/a9b4be4c/Codex_Installation_Kaitlyn_Basta-16.jpg)",
-      "Images" : ["Codex_Installation_Kaitlyn_Basta.jpg","Codex_Installation_Kaitlyn_Basta-16.jpg"],
+      "Images" : ["codexinstallationkaitlynbasta.jpg","codexinstallationkaitlynbasta-16.jpg"],
       "Edition" : "Unique Edition",
       "Description" : "This book is from the first iteration of The Codex Project, an annual curatorial project of open-ended artwork made within bound books over the course of a year, of which I am a founder and lead organizer. By its design, the project intrinsically suggests that the creator analyze themselves, and what quality subjectively means to them. In my interpretation, the self was symbolically represented by a face. The Codex pages are composed as a chronicle of imperfect copies of a single sculpted face, arranged and interpreted differently on each page, with the occasional addition of small drawings and embossed paper. I sculpted my self-portrait, which was molded and cast in apoxie before it could solidify. The casts, distorted, never matched the original sculpture ̶ which I thought of as the “idea” of the self. The subtly changing faces on each page are not only a representation of variances of one’s thoughts and consciousness through time, but more importantly, their process encourages acceptance of imperfection and change.Part of 2019’s The CODEX Project. \n—Kaitlyn Basta\n\n",
       "Permission" : "yes"
@@ -203,8 +184,7 @@
       "Title" : "Objects of Unknown Use",
       "Artist" : "Marianne Dages",
       "Date" : "2017",
-      "Photos" : "DagesOOUU1+copy.jpg (https://dl.airtable.com/.attachments/dea467c05b0e6a4f26a66c6f3b2bea51/111ebd18/DagesOOUU1copy.jpg),DagesOOUU3+copy.jpg (https://dl.airtable.com/.attachments/6cedb16f2305149a6307000824126c3a/9f066ec1/DagesOOUU3copy.jpg)",
-      "Images" : ["DagesOOUU1+copy.jpg","DagesOOUU3+copy.jpg"],
+      "Images" : ["dagesoouu1+copy.jpg","dagesoouu3+copy.jpg"],
       "Edition" : "Edition of 50",
       "Description" : "Objects of Unknown Use is a book that reflects upon two very different systems of belief, aliens and death. Inspired by the simultaneous reading of three texts; a UFO encounter blog, a catalog of The Egyptian Museum of Antiquities, and R.O. Faulkner's translation of The Egyptian Book of the Dead, the book weaves together the narrative voices of future and past, life and afterlife. These voices intertwine and become a science fiction poetic text, complemented by atmospheric imagery of skies, objects, and wings, a symbol of flight and the soul. —Marianne Dages",
       "Permission" : "yes"
@@ -214,8 +194,7 @@
       "Title" : "Meander",
       "Artist" : "Paige Menton",
       "Date" : "2019",
-      "Photos" : "meander_cover__paigementon.jpg (https://dl.airtable.com/.attachments/4104af30daebdf4914bfb334c54b07dc/febc6624/meander_cover__paigementon.jpg),meander_1_paigementon.jpg (https://dl.airtable.com/.attachments/bd0d820c596208461dbf00cfc1c7bfe4/97e75481/meander_1_paigementon.jpg)",
-      "Images" : ["meander_cover__paigementon.jpg","meander_1_paigementon.jpg"],
+      "Images" : ["meandercoverpaigementon.jpg","meander1paigementon.jpg"],
       "Edition" : "Unique Edition",
       "Description" : "Paige Menton lives outside of Philadelphia, where she writes, tutors, teaches writing and naturalist workshops to homeschoolers, and monitors the creek in her watershed.\n—Paige Menton\n\nCreated for the 2019 RiTUAL exhibition of single-sheet artists' books organized by @heavy.bubble. ",
       "Permission" : "yes"
@@ -225,8 +204,7 @@
       "Title" : "Changeling",
       "Artist" : "Sara Moose-Torres",
       "Date" : "2018",
-      "Photos" : "changeling_1.jpg (https://dl.airtable.com/.attachments/daf094c783aa1ee364e949b1596bebd1/ceda3d5f/changeling_1.jpg),changeling_2.jpg (https://dl.airtable.com/.attachments/4c65b4ab1a4bb975c1286476bdf51a33/5b3336ba/changeling_2.jpg)",
-      "Images" : ["changeling_1.jpg","changeling_2.jpg"],
+      "Images" : ["changeling1.jpg","changeling2.jpg"],
       "Edition" : "Edition of 15",
       "Description" : "This is a letterpress book and broadside combo, that revolves around the idea of the mythological creature known as the changeling, a creature that replaces children who were stolen away by supernatural creatures. From a modern understanding, it is thought that these creatures were an allegory for childhood developmental disorders, and the parallel between the language used then and used now is explored. \n—Sara Moose-Torres",
       "Permission" : "yes"
@@ -236,7 +214,6 @@
       "Title" : "Visions of Moss",
       "Artist" : "Susan Gordon",
       "Date" : "2019",
-      "Photos" : "visionsofmoss-cover.jpg (https://dl.airtable.com/.attachments/949cf7d4e21f68b54eb13548422466af/4257620d/visionsofmoss-cover.jpg),visionsofmoss.jpg (https://dl.airtable.com/.attachments/1570f4fc9323cd5fa6294074b3a5c9d4/6643555d/visionsofmoss.jpg)",
       "Images" : ["visionsofmoss-cover.jpg","visionsofmoss.jpg"],
       "Edition" : "Edition of 2",
       "Description" : "The vintage exercise equipment at Moss Rehab is my muse! \n—Susan Gordon\n\nCreated for the 2019 RiTUAL exhibition of single-sheet artists' books organized by @heavy.bubble. ",
@@ -247,11 +224,9 @@
       "Title" : "drift",
       "Artist" : "Taylor Tai",
       "Date" : "2019",
-      "Photos" : "ttai-drift01v.jpeg (https://dl.airtable.com/.attachments/15ddccaf1cc486d91a54c4d166271b11/0a9c10ec/ttai-drift01v.jpeg),ttai-drift03v.jpg (https://dl.airtable.com/.attachments/eb3917ca39a28b21d5d7ca5e90e4bc40/24211671/ttai-drift03v.jpg)",
-      "Images" : ["ttai-drift01v.jpeg","ttai-drift03v.jpg"],
+      "Images" : ["ttai-drift01v.jpeg","tairitual2.jpg"],
       "Edition" : "Unique Edition",
       "Description" : "I am a graduate student studying bumble bee health, and in my spare time I play with yarn and paper. \n—Taylor Tai\n\nCreated for the 2019 RiTUAL exhibition of single-sheet artists' books organized by @heavy.bubble. ",
       "Permission" : "yes"
     }
-
-]
+  ]
