@@ -22,4 +22,4 @@ Things learned:
 
 - Pagemaster (i.e., Ruby's CSV reader) is very sensitive to encoding issues. The Airtable export we use include BOM  (byte order mark) which must be removed before proper parsing.
 - In VSCode can be done: (csv) by simply changing the encoding, select encoding bottom left status bar; (json) selecting and deleting the question mark left over by BOM when CSV transposed to JSON in OpenRefine
-- Everyone is happier if image filenames don't include commas :shrug:
+- Everyone is happier if image filenames don't include commas :information_desk_person:
