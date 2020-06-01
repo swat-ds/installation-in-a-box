@@ -3,7 +3,7 @@ email: digitalscholarship@swarthmore.edu
 description: >-
   Exhibit featuring newly acquired local works in the Swarthmore College Libraries' artist book collection
 # baseurl: ""
-baseurl: "/dev/hyper-local"
+baseurl: "hyper-local"
 url: "https://ds-pages.swarthmore.edu"
 author: Digital Scholarship at Swarthmore College Libraries
 github_username:  swat-ds

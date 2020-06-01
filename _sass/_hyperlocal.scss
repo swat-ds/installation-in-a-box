@@ -1,12 +1,10 @@
+/* Hyper Local Jekyll Theme */
+
+/* Global */
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $title-font;
     color: $title-color;
-}
-
-a {
-    color: initial;
-    text-decoration: underline;
 }
 
 a, h1, h2, h3, h4, h5, h6 {
@@ -15,6 +13,7 @@ a, h1, h2, h3, h4, h5, h6 {
     transition: color .25s ease;
 }
 
+// Navigation
 .navigation {
     background: linear-gradient(rgba(#fff,1), 90%, rgba(#fff, 0));
     opacity: 1;
@@ -64,11 +63,13 @@ a, h1, h2, h3, h4, h5, h6 {
     }
 }
 
+// Main
 main > section.container {
     margin-top: 10rem;
     margin-bottom: 4rem;
 }
 
+// Footer
 footer {
 
     border-top: 2px solid $title-color;
@@ -80,7 +81,10 @@ footer {
     .row p.column {
         padding-top: 2rem;
         max-width: 33%;
-        font-size: 1rem;
+
+        font-size: 1.6rem;
+        letter-spacing: 0;
+        line-height: 1.4;
 
         @media screen and (min-width: 80rem) {
             padding-top: 6rem;
@@ -124,13 +128,15 @@ footer {
 
     span.caption {
         position: absolute;
-        top: 50rem - 2.6rem;
+        top: 50rem - 2.65rem;
         right: 0;
         margin: 0 auto;
         padding: 2px 5px;
         color: #fff;
         font-family: $body-font;
-        font-size: 1rem;
+        font-size: 1.6rem;
+        letter-spacing: 0;
+        line-height: 1.4;
         background: #000;
         text-align: right;
         z-index: 5;
@@ -143,23 +149,18 @@ footer {
     margin-top: 10rem;
 }
 
-// Splash Page
+/* Layout Elements */
 
+// Splash navigation
 .splash .navigation {
     opacity: 0;
 }
 
 .splash .navigation.show {
     opacity: 1;
-}
+}   
 
-.splash main > section.container {
-    margin-top: 14rem;
-    @media screen and (min-width: 80rem) {
-        margin-top: 12rem;
-    }
-}    
-
+// Splash header
 .splash header {
 
     #masthead {
@@ -185,7 +186,7 @@ footer {
             span {
                 position: relative;
                 left: 4.6rem * 5;
-                top: -4.6rem;
+                top: -4.2rem;
                 vertical-align: text-top;
             }
         }
@@ -193,9 +194,19 @@ footer {
     }
 }
 
+// Splash main
+.splash main > section.container {
+    margin-top: 14rem;
+    @media screen and (min-width: 80rem) {
+        margin-top: 12rem;
+    }
+
+    > h4 {
+        font-family: $body-font;
+    }
+} 
 
 // Collection grid
-
 .collection-grid {
 
     flex-wrap: wrap;
@@ -249,7 +260,6 @@ footer {
 }
 
 // Single work layout
-
 .work-images {
     ul#image-list {
         list-style: none;
