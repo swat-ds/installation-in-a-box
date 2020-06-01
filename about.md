@@ -2,6 +2,7 @@
 layout: default
 title: About
 classes: ['header']
+header_caption: James Lancel McElhinney
 permalink: /about/
 ---
 

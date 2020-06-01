@@ -2,6 +2,10 @@
     <div class="container" id="masthead">
                 <h1>{% if layout.classes contains 'splash' %}{{ site.title}}{% else %}{{ page.title }}{% endif %}
                 </h1>
-                {% if page.subtitle %}<span>{{ page.subtitle }}{% endif %}
+                {% if page.subtitle %}<span>{{ page.subtitle }}</span>{% endif %}
     </div>
+    {% if page.header_caption %}
+    <span class="caption">{{ page.header_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+    {% endif %}
+
 </header>

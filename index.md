@@ -2,6 +2,7 @@
 title: Home
 subtitle: New Works in the Swarthmore College Libraries Collection
 layout: splash
+header_caption: James Lancel McElhinney
 permalink: /
 ---
 
