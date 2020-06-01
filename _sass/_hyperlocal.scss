@@ -18,21 +18,21 @@ a, h1, h2, h3, h4, h5, h6 {
     background: linear-gradient(rgba(#fff,1), 90%, rgba(#fff, 0));
     opacity: 1;
 
-    height: 20rem;
+    // height: 20rem;
     width: 100%;
     padding-top: 2rem;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
     z-index: 99;
 
     -webkit-transition: opacity .5s ease;
     -ms-transition: opacity .5s ease;
     transition: opacity .5s ease;
 
-    @media screen and (min-width: 80rem) {
+    @media screen and (min-width: 40rem) {
         height: 7rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;    
     }
 }
 
@@ -44,13 +44,20 @@ a, h1, h2, h3, h4, h5, h6 {
     ul {
         justify-content: flex-end;
         flex-direction: column;
+        margin-bottom: 0;
 
-        @media screen and (min-width: 80rem) {
+        @media screen and (min-width: 40rem) {
             flex-direction: row;
         }
     }
 
     ul li {
+        margin-bottom: 0;
+
+        a{
+            line-height: .1rem;
+        }
+
         @media screen and (min-width: 80rem) {
             text-align: right;
         }
@@ -65,8 +72,12 @@ a, h1, h2, h3, h4, h5, h6 {
 
 // Main
 main > section.container {
-    margin-top: 10rem;
+    margin-top: 4rem;
     margin-bottom: 4rem;
+
+    @media screen and (min-width: 40rem){
+        margin-top: 10rem;
+    }
 }
 
 // Footer
@@ -117,10 +128,9 @@ footer {
     background-size: 350%;
     background-position: top center;
     background-repeat: no-repeat;
-
-    @media screen and (min-width: 80rem) {
-        background-size: contain;      
-    }
+    position: relative;
+    top: -12rem;
+    z-index: -1;
 
     #masthead h1 {
         padding-top: 50rem;
@@ -128,7 +138,7 @@ footer {
 
     span.caption {
         position: absolute;
-        top: 50rem - 2.65rem;
+        bottom: 0;
         right: 0;
         margin: 0 auto;
         padding: 2px 5px;
@@ -143,10 +153,15 @@ footer {
         opacity: 0.3;
         border-radius: 2px 0 0 0;
     }
+
+    @media screen and (min-width: 80rem) {
+        position: relative;
+        background-size: contain;    
+    }
 }
 
 .header main > section.container {
-    margin-top: 10rem;
+    margin-top: 0rem;
 }
 
 /* Layout Elements */
@@ -158,6 +173,10 @@ footer {
 
 .splash .navigation.show {
     opacity: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;    
 }   
 
 // Splash header
@@ -196,10 +215,8 @@ footer {
 
 // Splash main
 .splash main > section.container {
-    margin-top: 14rem;
-    @media screen and (min-width: 80rem) {
-        margin-top: 12rem;
-    }
+
+    margin-top: 1rem;
 
     > h4 {
         font-family: $body-font;
