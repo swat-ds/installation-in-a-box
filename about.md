@@ -13,6 +13,5 @@ Housed in the Rare Book Room in McCabe Library, this collection currently contai
 
 While the Rare Book Room is not open to the public for browsing, [you can discover Swarthmore Special Collections in Tripod](http://tripod.swarthmore.edu/).
 
-![McCabe Library Logo]( {{ '/assets/images/LibraryLogo_finalfinal.png' | relative_url }})  
 *Site supported by [Digital Scholarship / Swarthmore College Libraries](http://ds.swarthmore.edu/)*
 {: .ds-logo}

@@ -19,16 +19,14 @@ $(function(){
     var panelHeight = $('.panel').height();
     var image = $('#image-list');
 
-    $('.splash .navigation').addClass('trans');
-
     $(document).on('scroll', function(d){
 
         var currTop = $(this).scrollTop();
 
-        if ( currTop < 100 ){
-            $('.splash .navigation').addClass('trans');
+        if ( currTop > 100 ){
+            $('.splash .navigation').addClass('show');
         } else {
-            $('.splash .navigation').removeClass('trans')
+            $('.splash .navigation').removeClass('show')
         }
 
     });

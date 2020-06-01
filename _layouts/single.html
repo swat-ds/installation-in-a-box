@@ -15,7 +15,7 @@ classes: ['single']
         <h2 class="work-title">{{ page.Title }}</h2>
         <span class="work-artist-date">{{ page.Artist }}, {{ page.Date }}</span>
         <span class="work-edition">{{ page.Edition }}</span>
-        <span class="work-description"><p>{{ page.Description }}</p></span>
+        <span class="work-description"><p>{{ page.Description | markdownify }}</p></span>
     </div>
 </div>
 

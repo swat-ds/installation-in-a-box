@@ -4,7 +4,9 @@
     
     {% for item in include.collection %}
 
-    <div class="column collection-item" style="background-image:url('{{ item.Images[0] | prepend: '/' | prepend: item.collection | prepend: site.assets_path | relative_url }}')">
+    {% assign thumb_path = item.Images[0] | split: '.' %}
+
+    <div class="column collection-item" style="background-image:url('{{ thumb_path[0] | append: '-thumbnail.' | append: thumb_path[1] | prepend: '/' | prepend: item.collection | prepend: site.assets_path | relative_url }}')">
         <a href="{{ item.url | relative_url }}">
         <span class="collection-item-title">{{ item.Title }}</span>
         <span class="collection-item-artist">{{ item.Artist }}</span>

@@ -16,7 +16,9 @@ a, h1, h2, h3, h4, h5, h6 {
 }
 
 .navigation {
-    background-color: #fff;
+    background: linear-gradient(rgba(#fff,1), 90%, rgba(#fff, 0));
+    opacity: 1;
+
     height: 20rem;
     width: 100%;
     padding-top: 2rem;
@@ -26,9 +28,9 @@ a, h1, h2, h3, h4, h5, h6 {
     right: 0;
     z-index: 99;
 
-    -webkit-transition: background-color .5s ease;
-    -ms-transition: background-color .5s ease;
-    transition: background-color .5s ease;
+    -webkit-transition: opacity .5s ease;
+    -ms-transition: opacity .5s ease;
+    transition: opacity .5s ease;
 
     @media screen and (min-width: 80rem) {
         height: 7rem;
@@ -127,8 +129,12 @@ footer {
 
 // Splash Page
 
-.splash .navigation.trans {
-    background-color: rgba(255,255,255,0);
+.splash .navigation {
+    opacity: 0;
+}
+
+.splash .navigation.show {
+    opacity: 1;
 }
 
 .splash main > section.container {
@@ -199,6 +205,10 @@ footer {
         width: 100%;
         height: 100%;
         padding: 1rem;
+        background-color: initial;
+        -webkit-transition: background-color .25s ease;
+        -ms-transition: background-color .25s ease;
+        transition: background-color .25s ease;    
 
         &:hover {
             background-color: rgba($title-color, 0.9);
@@ -246,12 +256,3 @@ footer {
         line-height: 1.35;
     }
 }
-
-// McCabe logo
-
-.ds-logo {
-    img {
-      width: 15rem;
-      padding-bottom: .25rem;
-    }
-  }
