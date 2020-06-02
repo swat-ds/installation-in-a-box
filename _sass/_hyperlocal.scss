@@ -1,5 +1,14 @@
 /* Hyper Local Jekyll Theme */
 
+
+// One lonely mixin
+@mixin transition($property, $s: .25s, $timing: ease) {
+
+    -webkit-transition: $property $s $timing;
+    -ms-transition: $property $s $timing;
+    transition: $property $s $timing;
+}
+
 /* Global */
 
 h1, h2, h3, h4, h5, h6 {
@@ -8,9 +17,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a, h1, h2, h3, h4, h5, h6 {
-    -webkit-transition: color .25s ease;
-    -ms-transition: color .25s ease;
-    transition: color .25s ease;
+
+    @include transition(color);
 }
 
 // Navigation
@@ -23,9 +31,7 @@ a, h1, h2, h3, h4, h5, h6 {
     padding-top: 2rem;
     z-index: 99;
 
-    -webkit-transition: opacity .5s ease;
-    -ms-transition: opacity .5s ease;
-    transition: opacity .5s ease;
+    @include transition(opacity, .5s, ease);
 
     @media screen and (min-width: 40rem) {
         height: 7rem;
@@ -72,11 +78,11 @@ a, h1, h2, h3, h4, h5, h6 {
 
 // Main
 main > section.container {
-    margin-top: 4rem;
+    margin-top: 2.2rem * 1;
     margin-bottom: 4rem;
 
     @media screen and (min-width: 40rem){
-        margin-top: 10rem;
+        margin-top: 2.2rem * 4;
     }
 }
 
@@ -104,15 +110,14 @@ footer {
     }
 
     p.footer-copyright {
-        text-align: left;
-        margin-left: 0;
-        margin-right: auto;
+        // text-align: left;
+        // margin-left: 0;
+        // margin-right: auto;
     }
 
     p.footer-library.column {
         max-width: 22rem;
         padding-top: 1.8rem;
-
         img {
             max-width: 22rem;
         }
@@ -122,18 +127,18 @@ footer {
 // Header
 .header header {
 
-    height: 50rem;
+    height: 4.6rem * 7;
     background-image: linear-gradient(rgba(255,255,255,.15), rgba(255,255,255,.8)), url('../images/OTW_Fairmount.png');
     background-attachment: fixed;
-    background-size: 350%;
+    background-size: cover, 315%;
     background-position: top center;
     background-repeat: no-repeat;
     position: relative;
-    top: -12rem;
+    top: -4.6rem * 2;
     z-index: -1;
 
     #masthead h1 {
-        padding-top: 50rem;
+        padding-top: 4.6rem * 6;
     }
 
     span.caption {
@@ -154,14 +159,22 @@ footer {
         border-radius: 2px 0 0 0;
     }
 
+    @media screen and (min-width: 40rem) {
+        background-size: cover, 200%;
+        top: 0rem; 
+    }
+
     @media screen and (min-width: 80rem) {
-        position: relative;
-        background-size: contain;    
+        // position: relative;
+        background-size: cover, contain;
     }
 }
 
 .header main > section.container {
-    margin-top: 0rem;
+    margin-top: 0;
+    @media screen and (min-width: 40rem){
+        margin-top: 4.6rem;
+    }
 }
 
 /* Layout Elements */
@@ -169,18 +182,21 @@ footer {
 // Splash navigation
 .splash .navigation {
     opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
 }
 
 .splash .navigation.show {
     opacity: 1;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;    
 }   
 
 // Splash header
 .splash header {
+
+    height: 4.6rem * 11;
 
     #masthead {
         position: relative;
@@ -188,6 +204,7 @@ footer {
 
         h1 {
             font-size: 4.6rem * 2;
+            padding-top: 50rem;
         }
 
         span:first-of-type {
@@ -216,10 +233,14 @@ footer {
 // Splash main
 .splash main > section.container {
 
-    margin-top: 1rem;
+    margin-top: 4.6rem;
 
     > h4 {
         font-family: $body-font;
+    }
+
+    @media screen and (min-width: 80rem){
+        margin-top: 4.6rem * 3;
     }
 } 
 
@@ -229,13 +250,14 @@ footer {
     flex-wrap: wrap;
     margin-left: -2rem;
     margin-bottom: 2rem;
+    align-items: center;
 
     a { text-decoration: none; }
 
     .collection-item {
         max-width: 25rem;
         height: 25rem;
-        margin-left: 2rem;
+        margin: 0 0 2rem 2rem;
         padding: 0;
         border-radius: 2px;
         box-shadow: 0 0 .5rem rgba(#6a6a6a, 0.25);
@@ -250,9 +272,8 @@ footer {
         height: 100%;
         padding: 1rem;
         background-color: initial;
-        -webkit-transition: background-color .25s ease;
-        -ms-transition: background-color .25s ease;
-        transition: background-color .25s ease;    
+
+        @include transition(background-color);
 
         &:hover {
             background-color: rgba($title-color, 0.9);
