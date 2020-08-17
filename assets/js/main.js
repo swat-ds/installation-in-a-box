@@ -31,12 +31,11 @@ $(function(){
 
     });
 
-    // if( image ) { console.log('hi')}
-    // console.log('fire')
-    // image.viewer({
-    //     backdrop: true,
-    //     movable: false,
-    //     toolbar: false
-    //   });
-      
+    if( image.length ) {
+        image.viewer({
+            backdrop: true,
+            movable: false,
+            toolbar: false
+        });
+    }
 });
