@@ -1,6 +1,6 @@
 ---
 title: Home
-subtitle: New Works in the Swarthmore College Libraries Collection
+subtitle: A Swarthmore Art Studio Class
 layout: splash
 header_caption: James Lancel McElhinney
 permalink: /

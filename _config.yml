@@ -1,10 +1,10 @@
-title: Hyper Local
+title: Installation in a Box 
 email: digitalscholarship@swarthmore.edu
 description: >-
-  Exhibit featuring newly acquired local works in the Swarthmore College Libraries' artist book collection
+  Swarthmore Class
 # baseurl: ""
-baseurl: "hyper-local"
-url: "https://ds-pages.swarthmore.edu"
+baseurl: "/dev/installation-in-a-box"
+url: "https://ds-pages.swarthmore.edu/"
 author: Digital Scholarship at Swarthmore College Libraries
 github_username:  swat-ds
 twitter_username: swatlibrary
