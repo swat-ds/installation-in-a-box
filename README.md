@@ -1,6 +1,6 @@
 # Hyper Local Jekyll Theme
 
-This is a custom site for Swarthmore Libraries Book Arts exhibit Hyper Local with aspirations to be a template theme for future collections based Jekyll projects. Very similar to Wax in scope but a little lighterweight, for non-IIIF projects. While a little fiddly currently, the point is generating a customizable CSV/JSON to Collection Grid and Item views.
+This is a custom site for a project titled Installation in a Box using the Hyper Local template with aspirations to be a template theme for future collections based Jekyll projects. Very similar to Wax in scope but a little lighterweight, for non-IIIF projects. While a little fiddly currently, the point is generating a customizable CSV/JSON to Collection Grid and Item views.
 
 I may end up switching back to Wax, but the Rakefile workflow seems unnecessary for most of our small projects and the most ingenious part of Wax is IIF tile generator -- which we just don't need because we aren't always dealing with hi-res.
 
